@@ -28,7 +28,7 @@ extension InitialCoordinator: Coordinatable {
 // MARK:- Private methods
 private extension InitialCoordinator {
     func performFlow() {
-        let vc = InitialFactory.buiildInitVC() { [weak self] in
+        let vc = InitialFactory.buildInitVC() { [weak self] in
             guard let self = self else { return }
             self.finishFlow?()
         }

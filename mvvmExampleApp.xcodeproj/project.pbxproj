@@ -223,8 +223,8 @@
 		2D34B07C28C0AE3D0062FAD9 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				2D34B07D28C0AE710062FAD9 /* TabsViewController.swift */,
-				2D34B07F28C0B9B70062FAD9 /* TabsControllerViewFactory.swift */,
+				2D4B4F8228C23167000AF90D /* Assembly */,
+				2D4B4F8128C23162000AF90D /* Views */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -251,6 +251,111 @@
 				2D34B09428C0EED10062FAD9 /* NetworkService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		2D4B4F7928C230E6000AF90D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D34B08D28C0DBF40062FAD9 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D4B4F7A28C230F4000AF90D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D34B09128C0E76D0062FAD9 /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D4B4F7B28C230FA000AF90D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B4F7C28C23114000AF90D /* Cells */,
+				2D34B08B28C0DA620062FAD9 /* SearchViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D4B4F7C28C23114000AF90D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B4F7128C1F46D000AF90D /* RepositoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2D4B4F7D28C23124000AF90D /* Asembly */ = {
+			isa = PBXGroup;
+			children = (
+				2D34B08F28C0DC490062FAD9 /* SearchFactory.swift */,
+			);
+			path = Asembly;
+			sourceTree = "<group>";
+		};
+		2D4B4F7E28C2313A000AF90D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B4F7328C21373000AF90D /* SettingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D4B4F7F28C23140000AF90D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B4F7528C2141E000AF90D /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D4B4F8028C23148000AF90D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B4F7728C214D7000AF90D /* SettingsFactory.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2D4B4F8128C23162000AF90D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D34B07D28C0AE710062FAD9 /* TabsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D4B4F8228C23167000AF90D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2D34B07F28C0B9B70062FAD9 /* TabsControllerViewFactory.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2D4B4F8328C23183000AF90D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DE3DA28BF5EFA00E3A9B0 /* InitialViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D4B4F8428C23192000AF90D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5972A28BF7EA800008CDC /* InitialViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D4B4F8528C2319B000AF90D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5972C28BF80CB00008CDC /* InitialFactory.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		2DC596FE28BF624D00008CDC /* GlobalObjects */ = {
@@ -381,9 +486,9 @@
 		2DC5972728BF6EA300008CDC /* Initial */ = {
 			isa = PBXGroup;
 			children = (
-				2D0DE3DA28BF5EFA00E3A9B0 /* InitialViewController.swift */,
-				2DC5972A28BF7EA800008CDC /* InitialViewModel.swift */,
-				2DC5972C28BF80CB00008CDC /* InitialFactory.swift */,
+				2D4B4F8528C2319B000AF90D /* Assembly */,
+				2D4B4F8428C23192000AF90D /* ViewModels */,
+				2D4B4F8328C23183000AF90D /* Views */,
 			);
 			path = Initial;
 			sourceTree = "<group>";
@@ -391,11 +496,10 @@
 		2DC5972828BF6EB000008CDC /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				2D34B08B28C0DA620062FAD9 /* SearchViewController.swift */,
-				2D34B08D28C0DBF40062FAD9 /* SearchViewModel.swift */,
-				2D34B08F28C0DC490062FAD9 /* SearchFactory.swift */,
-				2D34B09128C0E76D0062FAD9 /* Repository.swift */,
-				2D4B4F7128C1F46D000AF90D /* RepositoryCell.swift */,
+				2D4B4F7D28C23124000AF90D /* Asembly */,
+				2D4B4F7B28C230FA000AF90D /* Views */,
+				2D4B4F7A28C230F4000AF90D /* Models */,
+				2D4B4F7928C230E6000AF90D /* ViewModels */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -403,9 +507,9 @@
 		2DC5972928BF6EBB00008CDC /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				2D4B4F7328C21373000AF90D /* SettingsViewController.swift */,
-				2D4B4F7528C2141E000AF90D /* SettingsViewModel.swift */,
-				2D4B4F7728C214D7000AF90D /* SettingsFactory.swift */,
+				2D4B4F8028C23148000AF90D /* Assembly */,
+				2D4B4F7F28C23140000AF90D /* ViewModels */,
+				2D4B4F7E28C2313A000AF90D /* Views */,
 			);
 			path = Settings;
 			sourceTree = "<group>";

@@ -10,7 +10,7 @@ import UIKit
 
 struct InitialFactory {
     
-    static func buiildInitVC(completion: @escaping CompletionBlock) -> UIViewController {
+    static func buildInitVC(completion: @escaping CompletionBlock) -> UIViewController {
         let vc = InitialViewController()
         vc.goNext = completion
         let vm = InitialViewModel()
