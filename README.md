@@ -1,3 +1,2 @@
 # Simple github viewer
-Architecture: MVVM + rxSwift + Coordinator;
-Layout: Programmatically autolayout
+Architecture: MVVM + rxSwift + Coordinator; Approach for making layout: Programmatically autolayout
